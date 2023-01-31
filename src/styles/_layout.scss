@@ -1,0 +1,12 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.layout {
+  padding: 0 24px;
+
+  @include breakpoint(desktop) {
+    padding: 0 16px;
+    text-align: left;
+  }
+}
