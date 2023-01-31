@@ -1,11 +1,10 @@
 .card-wrap {
   padding: 148px 23px 85px 23px;
   background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
-  min-height: 100%;
 
   @include breakpoint(desktop) {
-    padding: 0;
-    height: 100%;
+    padding: 50px;
+    min-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
